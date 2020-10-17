@@ -1,0 +1,9 @@
+.Person {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.PersonName {
+    flex-grow: 2;
+}
