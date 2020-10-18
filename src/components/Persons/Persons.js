@@ -7,17 +7,16 @@ import PersonData from "../../domain/person";
 const Persons = (props) => {
   const [persons, setPersons] = useState([]);
 
-//   useEffect(() => {
-//     const newPersons = [
-//       ...persons,
-//       new PersonData("Jan Nowak", "jan.nowak@example.com"),
-//       new PersonData("Jan Kowalski", "jan.kowalski@example.com"),
-//     ];
-//     setPersons(newPersons);
-//   }, []);
+  const onNewPerson = () => {
+    const newPersons = [
+      ...persons,
+      new PersonData("", ""),
+    ];
+    setPersons(newPersons);    
+  }
 
   let personRows = persons.map((p) => (
-    <Person key={p.email} name={p.name} email={p.email} />
+    <Person key={p.email} data={p} />
   ));
   if (persons.length === 0) {
       personRows = (<div className={classes.InfoText}>Proszę dodać osoby i adresy mailowe</div>)
@@ -27,7 +26,7 @@ const Persons = (props) => {
     <React.Fragment>
       <div className={classes.Persons}>{personRows}</div>
       <div className={classes.Buttons}>
-          <Button btnType='Success'>Dodaj</Button>
+          <Button btnType='Success' onClicked={onNewPerson}>Dodaj</Button>
           <Button btnType='Danger'>Losuj</Button>
       </div>
     </React.Fragment>
