@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gift-drawing/static/css/main.ab7ee540.chunk.css",
+    "main.js": "/gift-drawing/static/js/main.d45f2566.chunk.js",
+    "main.js.map": "/gift-drawing/static/js/main.d45f2566.chunk.js.map",
+    "runtime-main.js": "/gift-drawing/static/js/runtime-main.52d3cc4d.js",
+    "runtime-main.js.map": "/gift-drawing/static/js/runtime-main.52d3cc4d.js.map",
+    "static/js/2.c408544d.chunk.js": "/gift-drawing/static/js/2.c408544d.chunk.js",
+    "static/js/2.c408544d.chunk.js.map": "/gift-drawing/static/js/2.c408544d.chunk.js.map",
+    "index.html": "/gift-drawing/index.html",
+    "precache-manifest.59b9ca787c2113f493f515a994f678e4.js": "/gift-drawing/precache-manifest.59b9ca787c2113f493f515a994f678e4.js",
+    "service-worker.js": "/gift-drawing/service-worker.js",
+    "static/css/main.ab7ee540.chunk.css.map": "/gift-drawing/static/css/main.ab7ee540.chunk.css.map",
+    "static/js/2.c408544d.chunk.js.LICENSE.txt": "/gift-drawing/static/js/2.c408544d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52d3cc4d.js",
+    "static/js/2.c408544d.chunk.js",
+    "static/css/main.ab7ee540.chunk.css",
+    "static/js/main.d45f2566.chunk.js"
+  ]
+}
