@@ -6,29 +6,26 @@ const Person = (props) => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   
-  const data = {props}
   useEffect(() => {
-    const name = data.name
+    const name = props.data.name
     if (!name || name.length === 0) {
       setName('')
     } else {
       setName(name)
     }
-    const email = data.email
+    const email = props.data.email
     if (!email || email.length === 0) {
       setEmail('')
     } else {
       setEmail(email)
     }
-  }, [data])
+  }, [props.data])
 
   const onNameChange = (value) => {
-    console.log('change name', value)
     setName(value)
   }
 
   const onEmailChange = (value) => {
-    console.log('change email', value)
     setEmail(value)
   }
 

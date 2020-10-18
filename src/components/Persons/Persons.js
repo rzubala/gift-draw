@@ -10,13 +10,13 @@ const Persons = (props) => {
   const onNewPerson = () => {
     const newPersons = [
       ...persons,
-      new PersonData("", ""),
+      new PersonData(persons.length + 1, "", ""),
     ];
     setPersons(newPersons);    
   }
 
   let personRows = persons.map((p) => (
-    <Person key={p.email} data={p} />
+    <Person key={Math.random()} data={p} />
   ));
   if (persons.length === 0) {
       personRows = (<div className={classes.InfoText}>Proszę dodać osoby i adresy mailowe</div>)
