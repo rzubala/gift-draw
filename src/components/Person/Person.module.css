@@ -1,11 +1,14 @@
 .Person {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 60%;
-    margin: 5px;
-    padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: 5px;
+  padding: 5px;
 }
 
-.PersonName {
+@media (max-width: 900px) {
+  .Person {
+    width: 95%;
+  }
 }
