@@ -1,15 +1,26 @@
 import { URL, PARAM1, PARAM2, PARAM3 } from "../constants/values";
 
 export const handlePersons = async (persons) => {
-  persons.forEach((p) => {
+  let result = true
+  for (const p of persons) {
     console.log("send to", p.email, p.name);
-    //sendMessage(p.email, p.name)
-  });
-  const result = await resolveAfter2Seconds();
-  return result
+    const messageRes = await sendMessage(p.email, p.name)
+    result &= messageRes
+    console.log('result', messageRes)
+  };
+  //const result = await resolveAfter2Seconds();
+  return mapResult(result)
 };
 
-function resolveAfter2Seconds() {
+const mapResult = (result) => {
+  if (result) {
+    return "ok"
+  } else {
+    return "error"
+  }
+}
+
+const resolveAfter2Seconds = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve("error");
@@ -43,8 +54,9 @@ const sendMessage = async (to, toName) => {
   console.log(response);
   if (!response.ok) {
     console.log("error!");
+    return false
   } else {
     const resData = response.statusText;
-    console.log(resData);
+    return true
   }
 };
