@@ -1,10 +1,12 @@
 import React, {useEffect, useState} from "react";
 import InputText from '../UI/InputText/InputText'
+import PersonData from '../../domain/person'
 import classes from "./Person.module.css";
 
 const Person = (props) => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
+  const [id, setId] = useState()
   
   useEffect(() => {
     const name = props.data.name
@@ -19,14 +21,22 @@ const Person = (props) => {
     } else {
       setEmail(email)
     }
+    const id = props.data.id
+    if (!id || id.length === 0) {
+      setId('')
+    } else {
+      setId(id)
+    }
   }, [props.data])
 
   const onNameChange = (value) => {
     setName(value)
+    props.onUpdate(new PersonData(id, value, email))
   }
 
   const onEmailChange = (value) => {
     setEmail(value)
+    props.onUpdate(new PersonData(id, name, value))
   }
 
   return (

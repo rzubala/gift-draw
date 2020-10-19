@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-.Buttons {
+.Center {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -20,4 +20,28 @@
     color: #606060;
     margin: 25px;
     font-size: 12pt;
+}
+
+.Success {
+    width: auto;
+    color: rgb(255, 255, 255);
+    background-color: #01ac73;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(1, 99, 66);
+    border-radius: 5px;
+}
+
+.Error {
+    width: auto;
+    color: rgb(255, 255, 255);
+    background-color: #bd3e73;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(110, 4, 27);
+    border-radius: 5px;
 }
