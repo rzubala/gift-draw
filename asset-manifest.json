@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/gift-drawing/static/css/main.ab7ee540.chunk.css",
-    "main.js": "/gift-drawing/static/js/main.524ea85c.chunk.js",
-    "main.js.map": "/gift-drawing/static/js/main.524ea85c.chunk.js.map",
+    "main.js": "/gift-drawing/static/js/main.4a1f9ea2.chunk.js",
+    "main.js.map": "/gift-drawing/static/js/main.4a1f9ea2.chunk.js.map",
     "runtime-main.js": "/gift-drawing/static/js/runtime-main.52d3cc4d.js",
     "runtime-main.js.map": "/gift-drawing/static/js/runtime-main.52d3cc4d.js.map",
-    "static/js/2.c408544d.chunk.js": "/gift-drawing/static/js/2.c408544d.chunk.js",
-    "static/js/2.c408544d.chunk.js.map": "/gift-drawing/static/js/2.c408544d.chunk.js.map",
+    "static/js/2.07d4c19b.chunk.js": "/gift-drawing/static/js/2.07d4c19b.chunk.js",
+    "static/js/2.07d4c19b.chunk.js.map": "/gift-drawing/static/js/2.07d4c19b.chunk.js.map",
     "index.html": "/gift-drawing/index.html",
-    "precache-manifest.7f727df2cefb3f10cbd54a4d53fb6a2a.js": "/gift-drawing/precache-manifest.7f727df2cefb3f10cbd54a4d53fb6a2a.js",
+    "precache-manifest.088a6d5b71deeb449157125a8d7a1f2a.js": "/gift-drawing/precache-manifest.088a6d5b71deeb449157125a8d7a1f2a.js",
     "service-worker.js": "/gift-drawing/service-worker.js",
     "static/css/main.ab7ee540.chunk.css.map": "/gift-drawing/static/css/main.ab7ee540.chunk.css.map",
-    "static/js/2.c408544d.chunk.js.LICENSE.txt": "/gift-drawing/static/js/2.c408544d.chunk.js.LICENSE.txt"
+    "static/js/2.07d4c19b.chunk.js.LICENSE.txt": "/gift-drawing/static/js/2.07d4c19b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.52d3cc4d.js",
-    "static/js/2.c408544d.chunk.js",
+    "static/js/2.07d4c19b.chunk.js",
     "static/css/main.ab7ee540.chunk.css",
-    "static/js/main.524ea85c.chunk.js"
+    "static/js/main.4a1f9ea2.chunk.js"
   ]
 }
