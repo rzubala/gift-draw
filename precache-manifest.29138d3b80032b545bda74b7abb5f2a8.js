@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff45bcece55791b4aeda736d87f856c1",
+    "revision": "39b9a6d12659937a52d197ba3aef8deb",
     "url": "/gift-drawing/index.html"
   },
   {
