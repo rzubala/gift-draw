@@ -9,7 +9,7 @@ class Ticket {
 }
 
 export const handlePersons = async (persons) => {
-  if (!persons || persons.length === 0) {
+  if (!persons || persons.length < 2) {
     return mapResult(false);
   }
   let result = true;
