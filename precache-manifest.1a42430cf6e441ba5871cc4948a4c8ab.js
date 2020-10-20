@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39b9a6d12659937a52d197ba3aef8deb",
+    "revision": "faf086086d11783689549fcbd98469db",
     "url": "/gift-drawing/index.html"
   },
   {
-    "revision": "c1b39601b97e7ccc7d82",
+    "revision": "88cda99eb33b116f6c1e",
     "url": "/gift-drawing/static/css/main.c8b72c93.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gift-drawing/static/js/2.6f451b73.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1b39601b97e7ccc7d82",
-    "url": "/gift-drawing/static/js/main.d419452d.chunk.js"
+    "revision": "88cda99eb33b116f6c1e",
+    "url": "/gift-drawing/static/js/main.5302985a.chunk.js"
   },
   {
     "revision": "17b5bb5724c73c278410",

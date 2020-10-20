@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gift-drawing/static/css/main.c8b72c93.chunk.css",
-    "main.js": "/gift-drawing/static/js/main.d419452d.chunk.js",
-    "main.js.map": "/gift-drawing/static/js/main.d419452d.chunk.js.map",
+    "main.js": "/gift-drawing/static/js/main.5302985a.chunk.js",
+    "main.js.map": "/gift-drawing/static/js/main.5302985a.chunk.js.map",
     "runtime-main.js": "/gift-drawing/static/js/runtime-main.52d3cc4d.js",
     "runtime-main.js.map": "/gift-drawing/static/js/runtime-main.52d3cc4d.js.map",
     "static/js/2.6f451b73.chunk.js": "/gift-drawing/static/js/2.6f451b73.chunk.js",
     "static/js/2.6f451b73.chunk.js.map": "/gift-drawing/static/js/2.6f451b73.chunk.js.map",
     "index.html": "/gift-drawing/index.html",
-    "precache-manifest.29138d3b80032b545bda74b7abb5f2a8.js": "/gift-drawing/precache-manifest.29138d3b80032b545bda74b7abb5f2a8.js",
+    "precache-manifest.1a42430cf6e441ba5871cc4948a4c8ab.js": "/gift-drawing/precache-manifest.1a42430cf6e441ba5871cc4948a4c8ab.js",
     "service-worker.js": "/gift-drawing/service-worker.js",
     "static/css/main.c8b72c93.chunk.css.map": "/gift-drawing/static/css/main.c8b72c93.chunk.css.map",
     "static/js/2.6f451b73.chunk.js.LICENSE.txt": "/gift-drawing/static/js/2.6f451b73.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.52d3cc4d.js",
     "static/js/2.6f451b73.chunk.js",
     "static/css/main.c8b72c93.chunk.css",
-    "static/js/main.d419452d.chunk.js"
+    "static/js/main.5302985a.chunk.js"
   ]
 }
