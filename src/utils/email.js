@@ -68,8 +68,7 @@ const sendMessage = async (name, email, to) => {
     template_params: {
       from_name: name,
       to_name: to,
-      to_email: email,
-      message: "Test wiadomości",
+      to_email: email
     },
   };
 
