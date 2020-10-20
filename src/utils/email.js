@@ -12,8 +12,13 @@ export const handlePersons = async (persons) => {
   if (!persons || persons.length < 2) {
     return mapResult(false);
   }
+  const validatedPersons = persons.filter(p => p.name.length > 0 && p.email.length > 0)
+  if (!validatedPersons || validatedPersons.length < 2) {
+    return mapResult(false);
+  }
+
   let result = true;
-  const tickets = draw(persons);
+  const tickets = draw(validatedPersons);
   for (const ticket of tickets) {
     console.log("Ticket from ", ticket.name, ticket.email, " to ", ticket.to);
     const messageRes = await sendMessage(ticket.name, ticket.email, ticket.to);
