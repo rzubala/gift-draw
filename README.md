@@ -1,3 +1,2 @@
-# gift-draw
 Gift exchange – draw the names
-React web application.
+React web application: https://rafal.zubala.com/gift-draw/
