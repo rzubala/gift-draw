@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gift-draw/static/css/main.266d0cb7.chunk.css",
-    "main.js": "/gift-draw/static/js/main.3630b3e6.chunk.js",
-    "main.js.map": "/gift-draw/static/js/main.3630b3e6.chunk.js.map",
+    "main.js": "/gift-draw/static/js/main.720d0000.chunk.js",
+    "main.js.map": "/gift-draw/static/js/main.720d0000.chunk.js.map",
     "runtime-main.js": "/gift-draw/static/js/runtime-main.4d24a32e.js",
     "runtime-main.js.map": "/gift-draw/static/js/runtime-main.4d24a32e.js.map",
     "static/js/2.aa462216.chunk.js": "/gift-draw/static/js/2.aa462216.chunk.js",
     "static/js/2.aa462216.chunk.js.map": "/gift-draw/static/js/2.aa462216.chunk.js.map",
     "index.html": "/gift-draw/index.html",
-    "precache-manifest.80d5f8e69b3309db2d449ded7c23dbf9.js": "/gift-draw/precache-manifest.80d5f8e69b3309db2d449ded7c23dbf9.js",
+    "precache-manifest.2f83dcf37bc5d3d511d7d4a100ecd6d8.js": "/gift-draw/precache-manifest.2f83dcf37bc5d3d511d7d4a100ecd6d8.js",
     "service-worker.js": "/gift-draw/service-worker.js",
     "static/css/main.266d0cb7.chunk.css.map": "/gift-draw/static/css/main.266d0cb7.chunk.css.map",
     "static/js/2.aa462216.chunk.js.LICENSE.txt": "/gift-draw/static/js/2.aa462216.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4d24a32e.js",
     "static/js/2.aa462216.chunk.js",
     "static/css/main.266d0cb7.chunk.css",
-    "static/js/main.3630b3e6.chunk.js"
+    "static/js/main.720d0000.chunk.js"
   ]
 }
